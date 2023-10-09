@@ -15,4 +15,30 @@ public class StaticExam {
     public static void showMsg() {
         System.out.println(msg);
     }
+
+
+    // Static Method -> Static Field -> ok
+    // Instance Method -> Static Field -> ok
+    // Static Method -> Instance Field -> X, 인스턴스 필드는 객체 생성 시점이기 때문에 없을 수도 있다.
+    // Instance Method -> Instance Field -> ok
+
+    private static String staticMsg = "Static Msg";
+    private String instanceMsg;
+
+    public StaticExam(String instanceMsg) {
+        this.instanceMsg = instanceMsg;
+    }
+
+    public void showInstanceMsg() {
+        System.out.println("instanceMsg = " + instanceMsg);
+        System.out.println("staticMsg = " + staticMsg);
+        StaticExam.showStaticMsg();
+    }
+
+    public static void showStaticMsg() {
+        System.out.println("staticMsg = " + staticMsg);
+        // System.out.println("instanceMsg = " + instanceMsg);
+        // showInstanceMsg();
+        // StaticExam.showInstanceMsg();
+    }
 }
