@@ -25,7 +25,7 @@
 15. <s>Wrapper 클래스</s>
 16. <s>예외 처리</s>
 17. Java Collection Framework
-18. Generic
+18. <s>Generic</s>
 19. Collection 인터페이스와 List 인터페이스
 20. LinkedList, Set
 21. Map, Iterator
