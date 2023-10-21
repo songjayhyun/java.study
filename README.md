@@ -28,7 +28,7 @@
 18. <s>Generic</s>
 19. Collection 인터페이스와 List 인터페이스
 20. LinkedList, Set
-21. Map, Iterator
+21. <s>Map, Iterator</s>
 22. 함수형 프로그래밍의 이해
 23. <s>람다 표현식</s>
 24. <s>스트림</s>
